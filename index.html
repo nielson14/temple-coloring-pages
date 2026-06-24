@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
 <title>Utah Temples · Color by Sticker</title>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -137,6 +137,7 @@ header h1 span { color: #c8a96e; }
 #palette-panel {
   background: #2c2c2c;
   padding: 10px 14px 12px;
+  padding-bottom: calc(12px + env(safe-area-inset-bottom));
   flex-shrink: 0;
 }
 #active-color-row {
