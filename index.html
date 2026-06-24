@@ -118,8 +118,8 @@ header h1 span { color: #c8a96e; }
   min-height: 0;
 }
 #svg-container {
-  transform-origin: top left;
-  display: inline-block;
+  width: 100%;
+  display: block;
 }
 #svg-container svg { display: block; }
 #svg-container [data-region] {
@@ -336,7 +336,7 @@ const TEMPLES = [
     name: 'Layton, Utah',
     shortName: 'Layton',
     totalRegions: 98,
-    svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 828 576">
+    svg: `<svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 828 576">
   
   <g id="background">
     <rect x="-10.78" y="-3.44" width="887.11" height="440" style="fill: #c1e7f4"/>
@@ -536,7 +536,7 @@ const TEMPLES = [
     name: 'Salt Lake City, Utah',
     shortName: 'Salt Lake City',
     totalRegions: 122,
-    svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 792 612">
+    svg: `<svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 792 612">
   
   <g id="Background">
     <path d="M110.25-10.1L0,114.62l126.34,142.92,126.34-142.92L142.65-9.85c-10.8-.23-21.6-.35-32.4-.26Z" style="fill: #b2a1b9"/>
@@ -774,7 +774,7 @@ const TEMPLES = [
     name: 'Syracuse, Utah',
     shortName: 'Syracuse',
     totalRegions: 67,
-    svg: `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 792 824.21">
+    svg: `<svg width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 792 824.21">
   <defs>
     
     <linearGradient id="Yellow" x1="396" y1="536.99" x2="396" y2="12.11" gradientUnits="userSpaceOnUse">
